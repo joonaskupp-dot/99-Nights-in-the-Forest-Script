@@ -1,15 +1,15 @@
 --// 99 Nights in the Forest Script with Rayfield GUI //--
-
+fly
 -- Load Rayfield UI Library
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-
+bring Oil barrel 1000
 -- Services
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 local camera = workspace.CurrentCamera
-
+bring all
 -- Window Setup
 local Window = Rayfield:CreateWindow({
     Name = "99 Nights",
@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
     },
     KeySystem = false,
 })
-
+bring wood 1000
 -- Variables
 local teleportTargets = {
 "Alpha Wolf", "Alpha Wolf Pelt", "Anvil Base", "Apple", "Bandage", "Bear", "Berry", 
@@ -878,3 +878,4 @@ HomeTab:CreateToggle({
         })
     end
 })
+
